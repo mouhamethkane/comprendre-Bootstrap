@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cours Complet Bootstrap 4</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Les tableaux Bootstrap</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Classe</th>
+            <th>Couleur</th>
+            <th>Couleur</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Default</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="table-active">
+            <td>Active</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="table-primary">
+            <td>Primary</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="table-secondary">
+            <td>Secondary</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="table-success">
+            <td>Success</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="table-danger">
+            <td>Danger</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="table-warning">
+            <td>Warning</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="table-info">
+            <td>Info</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="table-light">
+            <td>Light</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="table-dark">
+            <td>Dark</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr>
+            <td class="table-primary">Primary</td>
+            <td class="table-success">Success</td>
+            <td class="table-warning">Warning</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th>Classe</th>
+            <th>Couleur</th>
+            <th>Couleur</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Default</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="bg-info">
+            <td>Active</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+          <tr class="bg-warning">
+            <td>Primary</td>
+            <td>Une cellule</td>
+            <td>Une cellule</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cours Complet Bootstrap 4</title>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <script>
+            $(document).ready(function(){
+  $('[data-toggle="popover"]').popover(); 
+});
+        </script>
+        <div class="container">
+            <h1 class="mb-5">Composants informatifs / d'aide</h1>
+            <button type="button" class="btn btn-primary" data-toggle="popover" data-placement="top" title="Popover au dessus" data-content="Contenu du popover n°1">Cliquez moi</button>
+            <button type="button" class="btn btn-warning" data-toggle="popover" data-placement="bottom" title="Popover en dessous" data-content="Contenu du popover n°2">Cliquez moi</button>
+        </div>
+    </body>
+</html>
